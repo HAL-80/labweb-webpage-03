@@ -81,3 +81,20 @@ header{
   .container{
     width: calc(100%-40px);
   }
+
+  .profile .container{
+   display: flex;
+   align-items: center;
+   max-width: 1024px;
+   margin: 0 auto;
+  }
+  .profile .container .profile-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 100%;
+    border-radius: 50%;
+  }
+  .profile .container .profile-text{
+    margin-left: 24px;
+  }
